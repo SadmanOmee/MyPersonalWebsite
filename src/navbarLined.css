@@ -1,0 +1,101 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div, a, section{
+    box-sizing: border-box;
+}
+
+.custom-navbar {
+    height: min-content;
+}
+
+.white-strip-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1.5%;
+    background-color: #FFFFFF;
+}
+
+/* .white-strip-bottom {
+    position: fixed;
+    top: 3.7em;
+    left: 0;
+    right: 0;
+    height: 1.5%;
+    background-color: blue;
+} */
+
+.custom-container {
+    position: fixed;
+    top: 1.5%;
+    left: 0;
+    right: 0;
+    background-color: #FFFFFF;
+}
+
+.navbar-fixed {
+    white-space: nowrap;
+    line-height: 2em;
+    border-top: solid 1px #c4bdb1;
+    border-bottom: solid 1px #c4bdb1;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    width: min-content;
+    margin: auto;
+}
+
+.navbar-item {
+    margin: 0 .618em;
+    padding: .618em 0;
+    color: #433723;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.navbar-item:link {
+    text-decoration: none;
+}
+
+.navbar-item:visited {
+    text-decoration: none;
+}
+
+.navbar-item:hover {
+    color: rgba(67,55,35,.4);
+}
+
+section {
+    margin-top: 4.6em;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 95vh;
+    border-bottom: solid 1px #000;
+}
+
+#about {
+    background-color: white;
+}
+
+#education {
+    background-color: white;
+}
+
+#publications {
+    background-color: white;
+}
+
+
+
