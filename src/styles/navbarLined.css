@@ -1,6 +1,6 @@
-html {
+/* html {
     scroll-behavior: smooth;
-}
+} */
 
 * {
     margin: 0;
@@ -9,10 +9,6 @@ html {
 
 div, a, section{
     box-sizing: border-box;
-}
-
-.custom-navbar {
-    height: min-content;
 }
 
 .white-strip-top {
@@ -77,18 +73,21 @@ div, a, section{
     color: rgba(67,55,35,.4);
 }
 
-section {
+/* section {
     position: relative;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;
     width: 90%;
-    height: 97vh;
+    height: 45em;
     border-bottom: solid 1px #000;
+    overflow:hidden;
 }
 
 h1 {
-    margin:auto;
+    margin-top: 0.5em;
+    text-align: center;
+    font-family: 'Open Sans Condensed';
 }
 
 .top-gap {
@@ -106,6 +105,6 @@ h1 {
 
 #publications {
     background-color: #FFFFFF;
-}
+} */
 
 
