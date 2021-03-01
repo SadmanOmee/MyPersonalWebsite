@@ -22,6 +22,7 @@ div, a, section{
     right: 0;
     height: 1.5%;
     background-color: #FFFFFF;
+    z-index: 1;
 }
 
 /* .white-strip-bottom {
@@ -39,6 +40,7 @@ div, a, section{
     left: 0;
     right: 0;
     background-color: #FFFFFF;
+    z-index: 1;
 }
 
 .navbar-fixed {
@@ -76,17 +78,19 @@ div, a, section{
 }
 
 section {
-    margin-top: 4.6em;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     width: 90%;
     height: 95vh;
     border-bottom: solid 1px #000;
 }
 
+.top-gap {
+    margin-top: 7em;
+    visibility: hidden;
+}
+
 #about {
-    background-color: white;
+    background-color: tomato;
 }
 
 #education {
@@ -95,6 +99,10 @@ section {
 
 #publications {
     background-color: white;
+}
+
+.container-fluid {
+    z-index: 1;
 }
 
 
